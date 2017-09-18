@@ -1,0 +1,192 @@
+body {
+  text-align: center;
+  background: #f2f2f2;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0px;
+  font-size: 18px;
+  color: #A9A9A9;
+  margin-bottom: 50px;
+  margin: auto;
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: normal;
+  height: 90px;
+  width: 90px;
+  margin: 30px auto;
+  /*border: 1px solid #D3D3D3;
+  background: #D3D3D3;*/
+  border: 1px solid #5dccc2;
+  background: #5dccc2;
+  color: white;
+  border-radius: 100%;
+  line-height: 90px;
+}
+
+h1 a {
+  font-weight: normal;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+}
+
+.content {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.sections .fa {
+  font-size: 40px;
+  line-height: 250px;
+}
+
+.projects .fa, .projects .ion-android-color-palette, .projects .ion-ios-navigate {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.sections p {
+  display: none;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact {
+  display: none;
+  font-size: 25px;
+}
+
+p.contact {
+  text-align: center;
+}
+
+.contact .fa {
+  font-size: 25px;
+  line-height: 50px;
+  margin: 5px;
+  text-align: center;
+}
+
+.contact .ion-tshirt {
+  font-size: 25px;
+  line-height: 50px;
+  margin: 5px;
+  text-align: center;
+}
+
+.contact a {
+  display: block;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#about, #contact {
+  background: #D3D3D3;
+}
+
+#resume, #projects {
+  /*background:#a9a9a9;*/
+  background: #5dccc2;
+}
+
+.sections {
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+.content .fa {
+  cursor: pointer;
+}
+
+.content .fa:hover {
+  opacity: .7;
+}
+
+.content p {
+  z-index: -1;
+}
+
+a {
+  font-weight: bold;
+  color: #808080;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.w3-border {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  display: none;
+}
+
+.on {
+  height: 500px;
+  width: 500px;
+}
+
+p.about.onInfo {
+  display: block;
+}
+
+p.projects.onInfo {
+  display: block;
+}
+
+p.skills.onInfo {
+  display: block;
+}
+
+p.contact.onInfo {
+  display: block;
+}
+
+div.w3-border.w3-round.onInfo {
+  display: block;
+}
+
+i.fa.onIcon {
+  line-height: 100px;
+}
+
+.off {
+  display: none;
+}
+
+.lighterGrey {
+  background: #D3D3D3;
+  border: 1px solid #D3D3D3;
+}
+
+.tr {
+  height: 30px;
+}
+
+.w3-border {
+  border: 1px solid #fff!important;
+}
