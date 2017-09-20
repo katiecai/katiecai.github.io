@@ -18,13 +18,13 @@ h1 {
   height: 90px;
   width: 90px;
   margin: 30px auto;
-  /*border: 1px solid #D3D3D3;
-  background: #D3D3D3;*/
   border: 1px solid #5dccc2;
   background: #5dccc2;
   color: white;
   border-radius: 100%;
   line-height: 90px;
+  -moz-transition: 0.7s;
+  -webkit-transition: 0.7s;
 }
 
 h1 a {
@@ -112,10 +112,13 @@ p.contact {
   height: 250px;
   width: 250px;
   float: left;
+  position: relative;
 }
 
 .content .fa {
   cursor: pointer;
+  -moz-transition: 0.7s;
+  -webkit-transition: 0.7s;
 }
 
 .content .fa:hover {
@@ -130,6 +133,8 @@ a {
   font-weight: bold;
   color: #808080;
   text-decoration: none;
+  -moz-transition: 0.7s;
+  -webkit-transition: 0.7s;
 }
 
 a:hover {
@@ -189,4 +194,14 @@ i.fa.onIcon {
 
 .w3-border {
   border: 1px solid #fff!important;
+}
+
+i.fa.fa-arrow-left {
+  display: none;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 25px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
